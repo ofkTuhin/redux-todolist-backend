@@ -1,14 +1,21 @@
 {
-    "name": "lws-json-server-todos",
-    "description": "Example in memory todos api with json-server by Learn with Sumit",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "start": "json-server --watch db_todos.json --no-cors true --port 9000"
-    },
-    "dependencies": {
-        "json-server": "^0.17.0"
-    },
-    "keywords": [],
-    "author": "Sumit Saha, Learn with Sumit"
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Example in memory todos api with json-server by Learn with Sumit",
+  "main": "index.js",
+  "scripts": {
+    "script": "npx json-server --watch ./db_todos.json --port 9000",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@tuhin.com:ofkTuhin/redux-todolist-backend.git"
+  }
 }
