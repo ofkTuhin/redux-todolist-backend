@@ -1,4 +1,3 @@
-// const jsonServer = require("json-server");
 const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("db_todos.json"); // <== Will be created later
